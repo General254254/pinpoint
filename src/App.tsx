@@ -9,6 +9,7 @@ import { Testimonials } from '@/sections/Testimonials';
 import { Map } from '@/sections/Map';
 import { CTA } from '@/sections/CTA';
 import { Footer } from '@/sections/Footer';
+import { ChatBot } from '@/components/ChatBot';
 import { usePageLoad } from '@/hooks/usePageLoad';
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
       
       {/* Footer */}
       <Footer />
+
+      {/* Chatbot Assistant */}
+      <ChatBot />
     </div>
   );
 }
